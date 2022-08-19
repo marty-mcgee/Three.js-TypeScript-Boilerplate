@@ -1,6 +1,6 @@
 {
   "name": "Three.js-TypeScript-Boilerplate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Marty McGee",
   "license": "MIT",
   "repository": "marty-mcgee/Three.js-TypeScript-Boilerplate",
@@ -12,5 +12,8 @@
     "start": "echo \"Error: no start specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "pnpm": "^7.9.3"
+  }
 }
