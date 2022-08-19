@@ -1,19 +1,25 @@
 {
   "name": "Three.js-TypeScript-Boilerplate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Marty McGee",
   "license": "MIT",
   "repository": "marty-mcgee/Three.js-TypeScript-Boilerplate",
   "description": "ThreeJS TypeScript Boilerplate Monorepo of Packages",
   "scripts": {
+    "linebreak0": "==================================================",
     "mm": "echo \"Error: no mm specified\" && exit 1",
+    "mm:pnpm": "pnpm -v",
+    "mm:ts": "tsc -v",
+    "linebreak1": "==================================================",
     "dev": "echo \"Error: no dev specified\" && exit 1",
     "build": "echo \"Error: no build specified\" && exit 1",
     "start": "echo \"Error: no start specified\" && exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linebreakX": "=================================================="
   },
   "keywords": [],
   "devDependencies": {
-    "pnpm": "^7.9.3"
+    "pnpm": "^7.9.3",
+    "typescript": "^4.7.4"
   }
 }
